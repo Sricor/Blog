@@ -1,0 +1,12 @@
+# serverless.yml
+
+component: website # 组件名称
+name: blog # 组件实例名称。
+inputs:
+  region: ap-guangzhou
+  src:
+    src: ./public
+    index: index.html
+  bucketName: ${name} # Bucket 名称
+  replace: true # 是否覆盖式部署
+  
