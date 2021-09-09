@@ -1,4 +1,1 @@
-widgets:
-    -
-        position: none
-        type: profile
+widgets: null
