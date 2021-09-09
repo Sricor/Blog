@@ -12,17 +12,17 @@ head:
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
         # Name of the web application (default to the site title)
-        name: 
+        name: Sricor's Blog
         # The displayed name of the web application
         # when there is not enough space to display full name
-        short_name: 
+        short_name: Sricor
         # The start URL of the web application
-        start_url: 
+        start_url: blog.sricor.work
         # The default theme color for the application
-        theme_color: 
+        theme_color: white
         # A placeholder background color for the application page to display
         # before its stylesheet is loaded
-        background_color: 
+        background_color: white
         # The preferred display mode for the website
         display: standalone
         # Image files that can serve as application icons for different contexts
@@ -240,19 +240,13 @@ widgets:
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/ppoffice'
-            Facebook:
-                icon: fab fa-facebook
-                url: 'https://facebook.com'
+                url: 'https://github.com/sricor'
             Twitter:
                 icon: fab fa-twitter
                 url: 'https://twitter.com'
             Dribbble:
                 icon: fab fa-dribbble
                 url: 'https://dribbble.com'
-            RSS:
-                icon: fas fa-rss
-                url: /
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -271,8 +265,8 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Hexo: 'https://hexo.io'
-            Bulma: 'https://bulma.io'
+            Portfolio: 'https://www.sricor.work'
+            Github: 'https://www.github.com/sricor'
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
