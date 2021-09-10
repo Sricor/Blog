@@ -102,4 +102,6 @@ theme: icarus
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: git@github.com:Sricor/Sricor.github.io.git
+  branch: main
