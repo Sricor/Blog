@@ -18,12 +18,12 @@ jobs:
 
       - name: Set ENV
         env:
-          ACTION_DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
           TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
           TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
         run: |
           mkdir -p ~/.ssh/
-          #echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
+          echo "$DEPLOY_KEY" > ~/.ssh/id_rsa
           chmod 700 ~/.ssh
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
