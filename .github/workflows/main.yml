@@ -35,4 +35,4 @@ jobs:
       - name: Deploy Serverless
         run: |
           npm run clean && npm run build
-          sls deploy
+          npm run deploy && sls deploy
